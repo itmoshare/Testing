@@ -2,6 +2,7 @@ package lab;
 
 import org.junit.After;
 import org.junit.Before;
+import org.junit.BeforeClass;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -14,7 +15,7 @@ public class TestBase {
     public void setUp() throws Exception {
         util = new Util();
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         util.prepare(driver);
     }
 

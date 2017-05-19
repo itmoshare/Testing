@@ -46,8 +46,8 @@ public class Util {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(selector));
 
-//        element.click();
-        element.sendKeys(Keys.ENTER);
+        element.click();
+        //element.sendKeys(Keys.ENTER);
     }
 
     public void auth(WebDriver driver, String login, String password){
