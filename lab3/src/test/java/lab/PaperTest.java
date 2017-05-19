@@ -4,6 +4,7 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
@@ -52,6 +53,16 @@ public class PaperTest  {
 
         _util.tryClick(_driver, By.cssSelector("button[title='Print diagram']"));
         assertTrue(_driver.getWindowHandles().size() > 1);
+    }
+
+    @Test
+    public void UndoTest() {
+        _driver.get("http://www.ontodia.org/diagram?diagramId=53e4951dd4404128c490600a");
+
+        _util.tryClick(_driver, By.cssSelector("div[model-id='http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet']"));
+        _driver.findElement(By.cssSelector("div[model-id='http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet'")).sendKeys(Keys.DELETE);
+        _util.tryClick(_driver, By.cssSelector("button[title='Undo']"));
+        assertTrue(_util.isElementPresent(_driver, By.cssSelector("div[model-id='http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#Muscadet']")));
     }
 
     @Test
