@@ -31,4 +31,13 @@ public class ActionHelper {
                 .build();
         dragAndDrop.perform();
     }
+
+    public void dragAndDrop(WebElement element, WebElement moveTo) {
+        Actions dragAndDropBuilder = new Actions(_driver);
+        Action dragAndDrop = dragAndDropBuilder.clickAndHold(element)
+                .moveToElement(moveTo)
+                .release()
+                .build();
+        dragAndDrop.perform();
+    }
 }
