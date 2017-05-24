@@ -33,7 +33,6 @@ C:\Users\Andrey Shumeev\Desktop\testing\webdriver-java-quickstart-archetype\lab3
 C:\Users\Andrey Shumeev\Desktop\testing\webdriver-java-quickstart-archetype\lab3Android\dotnet\AppiumDotNetSample\bin\Debug\nunit.framework.xml
 C:\Users\Andrey Shumeev\Desktop\testing\webdriver-java-quickstart-archetype\lab3Android\dotnet\AppiumDotNetSample\bin\Debug\WebDriver.xml
 C:\Users\Andrey Shumeev\Desktop\testing\webdriver-java-quickstart-archetype\lab3Android\dotnet\AppiumDotNetSample\bin\Debug\WebDriver.Support.xml
-C:\Users\Andrey Shumeev\Desktop\testing\webdriver-java-quickstart-archetype\lab3Android\dotnet\AppiumDotNetSample\obj\Debug\AppiumDotNetSample.csprojResolveAssemblyReference.cache
 C:\Users\Andrey Shumeev\Desktop\testing\webdriver-java-quickstart-archetype\lab3Android\dotnet\AppiumDotNetSample\obj\Debug\AppiumDotNetSample.Properties.Resources.resources
 C:\Users\Andrey Shumeev\Desktop\testing\webdriver-java-quickstart-archetype\lab3Android\dotnet\AppiumDotNetSample\obj\Debug\AppiumDotNetSample.csproj.GenerateResource.Cache
 C:\Users\Andrey Shumeev\Desktop\testing\webdriver-java-quickstart-archetype\lab3Android\dotnet\AppiumDotNetSample\obj\Debug\AppiumDotNetSample.dll
